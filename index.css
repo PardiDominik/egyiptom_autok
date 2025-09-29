@@ -10,38 +10,45 @@ body{
 }
 h1{
     color: rgb(20, 73, 156);
+    
 }
 p{
-    color: rgb(20, 73, 156)
-    ;
+    color: rgb(20, 73, 156);
     text-align: justify;
     max-width: 100vh;
 }
 .autojobbra{
     float: right;
-    
+    object-fit: cover;
+    margin-left: 2rem;
     
 
 }
 .autobalra{
     float: left;
+    object-fit: cover;
+    margin-right: 2rem;
 }
 .cimbalra{
-    text-align: left;
-    float: left;
+    text-align: justify;
+    float: inline-start;
     padding-right: 1rem;
+   
+    
 }
 .cimjobbra{
-    text-align: right;
+    text-align: justify;
     float: right;
     padding-left: 1rem;
 }
 .szovegbal{
     
-    margin-top: 1rem;
-    
+    margin: auto;
+    max-width: 100vh;
 }
 .szovegjobb{
-    text-align: right;
+    text-align: justify;
     margin-top: 1rem;
+    max-width: 100vh;
+   
 }
