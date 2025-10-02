@@ -1,8 +1,11 @@
 body{
     width: 650px;
     margin: auto;
-    background-color: rgb(199, 243, 243);
-    
+    background-color: rgb(183, 211, 211);
+    border-right: solid blue 28rem;
+    border-left: solid blue 28rem;
+    border-top: solid blue 1rem;
+    border-bottom: solid blue 1rem;
 }
 #Focim{
     text-align: center
@@ -16,39 +19,52 @@ p{
     color: rgb(20, 73, 156);
     text-align: justify;
     max-width: 100vh;
+    margin-bottom: 1rem;
+    
 }
 .autojobbra{
     float: right;
-    object-fit: cover;
     margin-left: 2rem;
+    object-fit: fill;
+    
     
 
 }
 .autobalra{
     float: left;
-    object-fit: cover;
     margin-right: 2rem;
+    object-fit: fill;
+    
+    
 }
 .cimbalra{
     text-align: justify;
-    float: inline-start;
+    
     padding-right: 1rem;
    
     
 }
 .cimjobbra{
-    text-align: justify;
+    margin-left: 65vh;
     float: right;
-    padding-left: 1rem;
+    
+    
 }
 .szovegbal{
     
     margin: auto;
     max-width: 100vh;
+    
 }
 .szovegjobb{
-    text-align: justify;
-    margin-top: 1rem;
+    
+    margin: auto;
     max-width: 100vh;
+    
    
+}
+
+.border{
+    border-top: solid rgb(48, 42, 42);
+    
 }
